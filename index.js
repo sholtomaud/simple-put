@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 'use strict';
-var http = require('http');
+const http = require('http');
+const startUsage = process.cpuUsage();
 
 let memory = {
     maxTotal: 0,
